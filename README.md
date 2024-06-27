@@ -1,4 +1,4 @@
-# ProjetoGlobo
+# Projeto Globo
 
 Neste projeto, foi desenvolvida uma solução abrangente no Salesforce, incluindo a criação de objetos personalizados, relacionamentos, campos personalizados, um aplicativo, endpoints, testes unitários e um screen flow.
 
@@ -24,4 +24,4 @@ Screen Flow para Alteração de Email:
 Foi Criado um screen flow para alteração de email, oferecendo a opção de desativar o envio de emails.
 
 Usuário Avaliador:
-Foi criado um usuário administrador com o email administradorGK@hotmail.com e a senha 3Ks&7d!eJf@1, garantindo que este usuário tenha acesso às configurações implementadas.
+Foi criado um usuário administrador com o email administradorGK@hotmail.com e a senha 3Ks&7d!eJf@1 para acessar URL  https://dbc-6a-dev-ed.develop.lightning.force.com/lightning/page/home , garantindo que este usuário tenha acesso às configurações implementadas.
