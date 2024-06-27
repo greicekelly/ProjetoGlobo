@@ -2,26 +2,37 @@
 
 Neste projeto, foi desenvolvida uma solução abrangente no Salesforce, incluindo a criação de objetos personalizados, relacionamentos, campos personalizados, um aplicativo, endpoints, testes unitários e um screen flow.
 
-Objetos Personalizados:
+## Objetos Personalizados
 Foram criados os objetos "Pais" para armazenar informações de países e "Pedido" com campos como Número do Pedido, Data, Descrição e Valor Total. O objeto Pedido possui relacionamentos com Produto (lookup) e Conta (mestre-detalhes), permitindo a totalização de pedidos na Conta.
 
-Relacionamentos:
+## Relacionamentos
 Estabeleci um relacionamento lookup entre Pedido e Produto e um relacionamento mestre-detalhes entre Pedido e Conta para possibilitar a criação de campos de resumo em Conta.
 
-Campos Personalizados:
+## Campos Personalizados
 Foram adicionados novos campos personalizados na Conta conforme necessário.
 
-Aplicativo Globo:
-Foi criado um aplicativo chamado Globo, incluindo as abas: Início, Pedido, Conta, Produto, Lead e Oportunidade.
+## Aplicativo Globo
+Foi criado um aplicativo chamado Globo, 
+incluindo as abas: 
+- Início
+- Pedido
+- Conta
+- Produto
+- Lead
+- Oportunidade
 
-Endpoint para Upsert em Conta: 
+## Endpoint para Upsert em Conta
 Foi desenvolvido um endpoint para realizar upsert (inserção ou atualização) em Conta, juntamente com testes unitários para garantir a funcionalidade.
 
-Inserção em Pedido:
+## Inserção em Pedido
 Foi Implementado a lógica de inserção de registros no objeto Pedido, também com testes unitários.
 
-Screen Flow para Alteração de Email:
+## Screen Flow para Alteração de Email
 Foi Criado um screen flow para alteração de email, oferecendo a opção de desativar o envio de emails.
 
-Usuário Avaliador:
-Foi criado um usuário administrador com o email administradorGK@hotmail.com e a senha 3Ks&7d!eJf@1 para acessar URL  https://dbc-6a-dev-ed.develop.lightning.force.com/lightning/page/home , garantindo que este usuário tenha acesso às configurações implementadas.
+## Usuário Avaliador
+Foi criado um usuário administrador garantindo que este tenha acesso às configurações implementadas.
+
+- Usuario : administradorGK@hotmail.com
+- senha : 3Ks&7d!eJf@1
+- Organizacão :  https://dbc-6a-dev-ed.develop.lightning.force.com/lightning/page/home
